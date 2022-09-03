@@ -1,0 +1,61 @@
+@media screen and (max-width:1178px){
+    body {
+        background-image: url(/space-tourism-website-main/starter-code/assets/destination/background-destination-tablet.jpg);
+        background-size: cover;
+        background-repeat: repeat-y;
+    }
+    .navbar {
+        
+        background-color: rgba(0, 0, 0,0.2  );
+    }
+    .row{
+        bottom: 0;
+    }
+    .carousel{
+        top: 17.5vh;
+    }
+    .destinationheader{
+       right: 27vw;
+    }
+}
+@media screen and (max-width:980px){
+    .carousel{
+        top: 25.5vh;
+    }
+    .astronautimg{
+        width: 15%;
+    }
+}
+@media screen and (max-width:648px){
+    body {
+        background-image: url(/space-tourism-website-main/starter-code/assets/destination/background-destination-mobile.jpg);
+        background-size: cover;
+        background-repeat: repeat-y;
+    }
+    .carousel{
+        top: 29.5vh;
+    }
+    .astronautimg{
+        width: 22%;
+    }
+    .planetname {
+        font-size: 4.5rem;
+        text-align: center;
+    }
+    .destinationheader{
+        right: 21.5vw;
+     }
+}
+
+
+/* navbar toggler */
+@media screen and (max-width:991px){
+    .navbar {
+        width: 52%;
+        height: 24.6vh;
+        background-color: rgba(0, 0, 0,0.2  );
+    }
+    .navbar-toggler-icon{
+        background-color:white;
+    }
+}

@@ -1,0 +1,33 @@
+@media screen and (max-width:1178px){
+    body {
+        background-image: url(/space-tourism-website-main/starter-code/assets/home/background-home-tablet.jpg);
+        background-size: cover;
+        background-repeat: repeat-y;
+    }
+    .navbar {
+        
+        background-color: rgba(0, 0, 0,0.2  );
+    }
+    .row{
+        bottom: 0;
+    }
+}
+@media screen and (max-width:648px){
+    body {
+        background-image: url(/space-tourism-website-main/starter-code/assets/home/background-home-mobile.jpg);
+        background-size: cover;
+        background-repeat: repeat-y;
+    }
+}
+
+/* incresing navbar height for toggler better ux  */
+@media screen and (max-width:991px){
+    .navbar {
+        width: 52%;
+        height: 24.6vh;
+        background-color: rgba(0, 0, 0,0.2  );
+    }
+    .navbar-toggler-icon{
+        background-color:white;
+    }
+}

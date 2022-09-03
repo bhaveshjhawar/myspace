@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/space-tourism-website-main/starter-code/assets/destination/background-destination-desktop.jpg);
+    background-size: cover;
+    /* overflow-y: hidden; */
+    overflow: scroll;
+}
+
+.astronautimg{
+width: 13%;
+position: absolute;
+top: 1.5vh;
+opacity: 0.5;
+filter: blur(0.5px);
+}
+.nav-link:hover {
+    color: white;
+    text-decoration: underline white 3px;
+    text-underline-offset: 1vh;
+}
+
+/* CAROUSEL********************************************* */
+.carousel{
+    position: absolute;
+    bottom: 5px;
+    width: 100vw;
+    top: 15.5vh;
+}
+
+.row-destination{
+    display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+margin-top: 29vh;
+}
+
+.carouselimage{
+width: 65%;
+display: block;
+margin: auto;
+
+}
+
+
+/* destination header navigation bar  */
+.destinationheader{
+    position: absolute;
+    top: 15vh;
+    right: 15vw;
+   
+}
+
+.destinationheader span{
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+    font-size: 1.2rem;
+    margin-right: 4.5vw;
+    cursor: pointer;
+}
+.destinationheader span:hover{
+
+    text-decoration: underline white 3px;
+    text-underline-offset: 2vh;
+}
+.active1{
+    text-decoration: underline white 3px;
+    text-underline-offset: 2vh;
+}
+
+/* planet details */
+ .planetname {
+    font-size: 8rem;
+    line-height: 1;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.textparah {
+    color: white;
+    font-size: 1.3rem;
+    opacity: 0.5;
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: 4vh;
+}
+
+
+.figure_head{
+    font-family: 'Roboto Mono', monospace;
+text-transform: uppercase;
+font-weight: 500;
+color: white;
+font-size: 1rem;
+/* width: 20vw; */
+}
+
+.figure_detail{
+    font-size: 2.5rem;
+    /* width: 20vw; */
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+

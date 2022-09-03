@@ -1,0 +1,103 @@
+.choose{
+    width: 100vw;
+height: 11vh;
+position: absolute;
+bottom: 66vh;
+}
+.number_destination{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.3;
+}
+.choose_destination{
+    padding-left: 15vw;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.marsbox{
+    height: 70%;
+display: flex;
+width: 95%;
+position: absolute;
+bottom: 0vh;
+
+}
+.mars{
+    align-self: center;
+position: absolute;
+left: 22vw;
+}
+.marsimg{
+    align-self: center;
+
+}
+.marsdetails{
+    margin-left: 59vw;
+}
+.destinationheader{
+    margin-bottom: 4vw;
+}
+.destinationheader span{
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+    font-size: 1.2rem;
+    margin-right: 4.5vw;
+    cursor: pointer;
+}
+.destinationheader span:hover{
+
+    text-decoration: underline white 3px;
+    text-underline-offset: 2vh;
+}
+.active1{
+    text-decoration: underline white 3px;
+    text-underline-offset: 2vh;
+}
+ .wordmars {
+    font-size: 8rem;
+    line-height: 1;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.textparah {
+    color: white;
+    font-size: 1.3rem;
+    opacity: 0.5;
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: 4vh;
+}
+/*
+.avg{
+    color: white;
+    font-size: 1.3rem;
+    opacity: 0.5;
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-family: 'Roboto Mono', monospace;
+    
+} */
+.marsdata{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+/* grid-template-rows: repeat(2,1fr); */
+grid-template-rows: 2;
+column-gap: 3vw;
+row-gap: 0vh;
+color: white;
+}
+.avg{
+    font-family: 'Roboto Mono', monospace;
+text-transform: uppercase;
+font-weight: 500;
+color: white;
+font-size: 1rem;
+/* margin-right: 4.5vw; */
+}
+.km{
+    font-size: 2.5rem;
+    /* line-height: 1; */
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}

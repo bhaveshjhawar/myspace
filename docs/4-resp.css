@@ -1,0 +1,26 @@
+@media screen and (max-width:990px) {
+    .crewimg{
+        width: 85%;
+    }
+    .spacesuitimg{
+width: 62%;
+margin: auto;
+    }
+    body{
+        background-image: url(/space-tourism-website-main/starter-code/assets/technology/background-technology-desktop.jpg);
+        background-size: cover;
+    }
+}
+@media screen and (max-width:1174px) {
+    body{
+        background-image: url(/space-tourism-website-main/starter-code/assets/technology/background-technology-tablet.jpg);
+        background-size: cover;
+    }
+}
+@media screen and (max-width:650px) {
+    body{
+        background-image: url(/space-tourism-website-main/starter-code/assets/technology/background-technology-mobile.jpg);
+        background-size: cover;
+    }
+}
+
